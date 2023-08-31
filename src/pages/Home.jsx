@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <>
       <Header />
-      <main>
+      <main className="container max-w-full bg-indigo-100">
         <Infos />
         <About />
         <Projects />

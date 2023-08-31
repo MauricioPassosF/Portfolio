@@ -5,7 +5,7 @@ export default function Header() {
   const [showContacts, setShowContacts] = useState(false);
 
   return (
-    <nav>
+    <nav className="container max-w-full bg-indigo-800">
       <button type="button">Sobre Mim</button>
       <button type="button">Projetos</button>
       <button type="button">Codigo Fonte</button>
