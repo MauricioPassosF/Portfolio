@@ -16,9 +16,9 @@ export default function Contacts() {
       <button type="button">
         <img src={whatsApp} alt="Github" />
       </button>
-      <button type="button">
+      <a href="https://www.linkedin.com/in/mauriciopassosdev/">
         <img src={linkedin} alt="Github" />
-      </button>
+      </a>
     </nav>
   );
 }

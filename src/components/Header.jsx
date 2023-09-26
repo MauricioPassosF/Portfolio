@@ -1,4 +1,5 @@
 import { React, useState } from 'react';
+import { NavLink } from 'react-router-dom';
 import Contacts from './Contacts';
 
 export default function Header() {
@@ -7,8 +8,8 @@ export default function Header() {
   return (
     <nav className="flex flex-row justify-between h-20  max-w-full bg-indigo-800 sticky top-0">
       <div>
-        <button type="button">Sobre Mim</button>
-        <button type="button">Projetos</button>
+        <NavLink to="/">Sobre Mim</NavLink>
+        <NavLink to="/projetos">Projetos</NavLink>
         <button type="button">Codigo Fonte</button>
         <button type="button">Projetos</button>
         <button type="button">Curriculo</button>
