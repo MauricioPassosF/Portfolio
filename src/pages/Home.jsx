@@ -7,7 +7,7 @@ import Timeline from '../components/Timeline';
 
 export default function Home() {
   return (
-    <>
+    <div className="flex flex-col">
       <Header />
       <main className="container max-w-full bg-indigo-100">
         <Infos />
@@ -15,6 +15,6 @@ export default function Home() {
         <Projects />
         <Timeline />
       </main>
-    </>
+    </div>
   );
 }

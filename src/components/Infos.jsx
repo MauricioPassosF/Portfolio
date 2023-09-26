@@ -1,9 +1,10 @@
 import { React } from 'react';
 import photo1 from '../utils/images/Perfil.jpeg';
+import { sectionStyle } from '../utils/styles';
 
 export default function Infos() {
   return (
-    <div className="flex flex-row justify-between items-center bg-indigo-500 w-5/6 mx-auto h-40 rounded-md">
+    <div className={sectionStyle}>
       <div className="flex flex-col items-center">
         <h1 className="h-2/4 text-4xl font-bold">Maurício Passos</h1>
         <div className="flex flex-row gap-x-4">
